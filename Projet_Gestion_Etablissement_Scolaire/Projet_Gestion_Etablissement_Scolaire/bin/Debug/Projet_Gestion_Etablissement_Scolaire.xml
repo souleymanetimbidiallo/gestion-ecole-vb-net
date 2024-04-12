@@ -1,0 +1,152 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Projet_Gestion_Etablissement_Scolaire
+</name>
+</assembly>
+<members>
+<member name="P:Projet_Gestion_Etablissement_Scolaire.My.Resources.Resources.ResourceManager">
+	<summary>
+  Retourne l'instance ResourceManager mise en cache utilisée par cette classe.
+</summary>
+</member><member name="P:Projet_Gestion_Etablissement_Scolaire.My.Resources.Resources.Culture">
+	<summary>
+  Remplace la propriété CurrentUICulture du thread actuel pour toutes
+  les recherches de ressources à l'aide de cette classe de ressource fortement typée.
+</summary>
+</member><member name="P:Projet_Gestion_Etablissement_Scolaire.My.Resources.Resources._5173853lpaw_5186961_jpg_3758601">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet_Gestion_Etablissement_Scolaire.My.Resources.Resources._5173853lpaw_5186961_jpg_37586011">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet_Gestion_Etablissement_Scolaire.My.Resources.Resources.calb2849_cole_jpg">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet_Gestion_Etablissement_Scolaire.My.Resources.Resources.ecoles">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet_Gestion_Etablissement_Scolaire.My.Resources.Resources.ecoles1">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet_Gestion_Etablissement_Scolaire.My.Resources.Resources.gn">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet_Gestion_Etablissement_Scolaire.My.Resources.Resources.gn__1_">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet_Gestion_Etablissement_Scolaire.My.Resources.Resources.gn__1_1">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet_Gestion_Etablissement_Scolaire.My.Resources.Resources.gn__1_2">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet_Gestion_Etablissement_Scolaire.My.Resources.Resources.gn__1_3">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet_Gestion_Etablissement_Scolaire.My.Resources.Resources.gn1">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet_Gestion_Etablissement_Scolaire.My.Resources.Resources.images__12_">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet_Gestion_Etablissement_Scolaire.My.Resources.Resources.images__17_">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet_Gestion_Etablissement_Scolaire.My.Resources.Resources.images__17_1">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet_Gestion_Etablissement_Scolaire.My.Resources.Resources.images__17_2">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet_Gestion_Etablissement_Scolaire.My.Resources.Resources.images__19_">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet_Gestion_Etablissement_Scolaire.My.Resources.Resources.images__20_">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet_Gestion_Etablissement_Scolaire.My.Resources.Resources.images__20_1">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet_Gestion_Etablissement_Scolaire.My.Resources.Resources.images__38_">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet_Gestion_Etablissement_Scolaire.My.Resources.Resources.images__38_1">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet_Gestion_Etablissement_Scolaire.My.Resources.Resources.images__39_">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet_Gestion_Etablissement_Scolaire.My.Resources.Resources.images__39_1">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet_Gestion_Etablissement_Scolaire.My.Resources.Resources.images__39_2">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet_Gestion_Etablissement_Scolaire.My.Resources.Resources.images__39_3">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet_Gestion_Etablissement_Scolaire.My.Resources.Resources.images__41_">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet_Gestion_Etablissement_Scolaire.My.Resources.Resources.images__41_1">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet_Gestion_Etablissement_Scolaire.My.Resources.Resources.images__43_">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet_Gestion_Etablissement_Scolaire.My.Resources.Resources.images__44_">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet_Gestion_Etablissement_Scolaire.My.Resources.Resources.images__54_">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet_Gestion_Etablissement_Scolaire.My.Resources.Resources.images__57_">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet_Gestion_Etablissement_Scolaire.My.Resources.Resources.salle_de_classe_guinee">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet_Gestion_Etablissement_Scolaire.My.Resources.Resources.three_col_48902949_l">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:Projet_Gestion_Etablissement_Scolaire.My.Resources.Resources">
+	<summary>
+  Une classe de ressource fortement typée destinée, entre autres, à la consultation des chaînes localisées.
+</summary>
+</member>
+</members>
+</doc>

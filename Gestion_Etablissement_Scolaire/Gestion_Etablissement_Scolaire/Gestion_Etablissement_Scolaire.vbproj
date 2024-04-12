@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1F5822DB-5E15-4F45-AA29-3AAF005EBED9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Gestion_Etablissement_Scolaire.My.MyApplication</StartupObject>
+    <RootNamespace>Gestion_Etablissement_Scolaire</RootNamespace>
+    <AssemblyName>Gestion_Etablissement_Scolaire</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Gestion_Etablissement_Scolaire.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Gestion_Etablissement_Scolaire.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Gestion_ecoleDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Gestion_ecoleDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Gestion_ecoleDataSet.vb">
+      <DependentUpon>Gestion_ecoleDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="niveau_eleve.Designer.vb">
+      <DependentUpon>niveau_eleve.vb</DependentUpon>
+    </Compile>
+    <Compile Include="niveau_eleve.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="option recherche.Designer.vb">
+      <DependentUpon>option recherche.vb</DependentUpon>
+    </Compile>
+    <Compile Include="option recherche.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="o_recherche.Designer.vb">
+      <DependentUpon>o_recherche.vb</DependentUpon>
+    </Compile>
+    <Compile Include="o_recherche.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="start_page.Designer.vb">
+      <DependentUpon>start_page.vb</DependentUpon>
+    </Compile>
+    <Compile Include="start_page.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="table12.Designer.vb">
+      <DependentUpon>table12.vb</DependentUpon>
+    </Compile>
+    <Compile Include="table12.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="table_9.Designer.vb">
+      <DependentUpon>table_9.vb</DependentUpon>
+    </Compile>
+    <Compile Include="table_9.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="table_eleve11.Designer.vb">
+      <DependentUpon>table_eleve11.vb</DependentUpon>
+    </Compile>
+    <Compile Include="table_eleve11.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="table_eleve_7.Designer.vb">
+      <DependentUpon>table_eleve_7.vb</DependentUpon>
+    </Compile>
+    <Compile Include="table_eleve_7.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="table_eleve_8.Designer.vb">
+      <DependentUpon>table_eleve_8.vb</DependentUpon>
+    </Compile>
+    <Compile Include="table_eleve_8.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="table_professeur.Designer.vb">
+      <DependentUpon>table_professeur.vb</DependentUpon>
+    </Compile>
+    <Compile Include="table_professeur.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="culturevb.Designer.vb">
+      <DependentUpon>culturevb.vb</DependentUpon>
+    </Compile>
+    <Compile Include="culturevb.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="eleve.Designer.vb">
+      <DependentUpon>eleve.vb</DependentUpon>
+    </Compile>
+    <Compile Include="eleve.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="encadreur.Designer.vb">
+      <DependentUpon>encadreur.vb</DependentUpon>
+    </Compile>
+    <Compile Include="encadreur.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mgestion.Designer.vb">
+      <DependentUpon>mgestion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="mgestion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="professeur.Designer.vb">
+      <DependentUpon>professeur.vb</DependentUpon>
+    </Compile>
+    <Compile Include="professeur.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="profile_personnel_direction.Designer.vb">
+      <DependentUpon>profile_personnel_direction.vb</DependentUpon>
+    </Compile>
+    <Compile Include="profile_personnel_direction.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sport.Designer.vb">
+      <DependentUpon>sport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="table_direction.Designer.vb">
+      <DependentUpon>table_direction.vb</DependentUpon>
+    </Compile>
+    <Compile Include="table_direction.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="table_terminale.Designer.vb">
+      <DependentUpon>table_terminale.vb</DependentUpon>
+    </Compile>
+    <Compile Include="table_terminale.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="niveau_eleve.resx">
+      <DependentUpon>niveau_eleve.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="option recherche.resx">
+      <DependentUpon>option recherche.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="o_recherche.resx">
+      <DependentUpon>o_recherche.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="start_page.resx">
+      <DependentUpon>start_page.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="table12.resx">
+      <DependentUpon>table12.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="table_9.resx">
+      <DependentUpon>table_9.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="table_eleve11.resx">
+      <DependentUpon>table_eleve11.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="table_eleve_7.resx">
+      <DependentUpon>table_eleve_7.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="table_eleve_8.resx">
+      <DependentUpon>table_eleve_8.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="table_professeur.resx">
+      <DependentUpon>table_professeur.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="culturevb.resx">
+      <DependentUpon>culturevb.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="eleve.resx">
+      <DependentUpon>eleve.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="encadreur.resx">
+      <DependentUpon>encadreur.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mgestion.resx">
+      <DependentUpon>mgestion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="professeur.resx">
+      <DependentUpon>professeur.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="profile_personnel_direction.resx">
+      <DependentUpon>profile_personnel_direction.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sport.resx">
+      <DependentUpon>sport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="table_direction.resx">
+      <DependentUpon>table_direction.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="table_terminale.resx">
+      <DependentUpon>table_terminale.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Gestion_ecoleDataSet.xsc">
+      <DependentUpon>Gestion_ecoleDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Gestion_ecoleDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Gestion_ecoleDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Gestion_ecoleDataSet.xss">
+      <DependentUpon>Gestion_ecoleDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\125px-Password.svg.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,460 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BFE44664-EE84-4E49-99DC-C5EC1D303E8E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Projet_Gestion_Etablissement_Scolaire.My.MyApplication</StartupObject>
+    <RootNamespace>Projet_Gestion_Etablissement_Scolaire</RootNamespace>
+    <AssemblyName>Projet_Gestion_Etablissement_Scolaire</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Projet_Gestion_Etablissement_Scolaire.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Projet_Gestion_Etablissement_Scolaire.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="connexion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="connexion.Designer.vb">
+      <DependentUpon>connexion.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="consultation_encadreurs2.Designer.vb">
+      <DependentUpon>consultation_encadreurs2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="consultation_encadreurs2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Methodes.vb" />
+    <Compile Include="modification_encadreurs.Designer.vb">
+      <DependentUpon>modification_encadreurs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="modification_encadreurs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="suppression_encadreurs.Designer.vb">
+      <DependentUpon>suppression_encadreurs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="suppression_encadreurs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inscription_professeurs.Designer.vb">
+      <DependentUpon>inscription_professeurs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="inscription_professeurs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="consultation_professeurs1.Designer.vb">
+      <DependentUpon>consultation_professeurs1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="consultation_professeurs1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="consultation_professeurs2.Designer.vb">
+      <DependentUpon>consultation_professeurs2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="consultation_professeurs2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modification_professeurs.Designer.vb">
+      <DependentUpon>modification_professeurs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="modification_professeurs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="suppression_professeurs.Designer.vb">
+      <DependentUpon>suppression_professeurs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="suppression_professeurs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inscription_eleves.Designer.vb">
+      <DependentUpon>inscription_eleves.vb</DependentUpon>
+    </Compile>
+    <Compile Include="inscription_eleves.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="consultation_eleves1.Designer.vb">
+      <DependentUpon>consultation_eleves1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="consultation_eleves1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menu_general.Designer.vb">
+      <DependentUpon>menu_general.vb</DependentUpon>
+    </Compile>
+    <Compile Include="menu_general.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="consultation_eleves2.Designer.vb">
+      <DependentUpon>consultation_eleves2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="consultation_eleves2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modification_eleves.Designer.vb">
+      <DependentUpon>modification_eleves.vb</DependentUpon>
+    </Compile>
+    <Compile Include="modification_eleves.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="suppression_eleves.Designer.vb">
+      <DependentUpon>suppression_eleves.vb</DependentUpon>
+    </Compile>
+    <Compile Include="suppression_eleves.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inscription_evenements.Designer.vb">
+      <DependentUpon>inscription_evenements.vb</DependentUpon>
+    </Compile>
+    <Compile Include="inscription_evenements.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="activites_culturelles.Designer.vb">
+      <DependentUpon>activites_culturelles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="activites_culturelles.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inscription_direction.Designer.vb">
+      <DependentUpon>inscription_direction.vb</DependentUpon>
+    </Compile>
+    <Compile Include="inscription_direction.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="consultation_direction1.Designer.vb">
+      <DependentUpon>consultation_direction1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="consultation_direction1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="consultation_direction2.Designer.vb">
+      <DependentUpon>consultation_direction2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="consultation_direction2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modification_direction.Designer.vb">
+      <DependentUpon>modification_direction.vb</DependentUpon>
+    </Compile>
+    <Compile Include="modification_direction.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="suppression_direction.Designer.vb">
+      <DependentUpon>suppression_direction.vb</DependentUpon>
+    </Compile>
+    <Compile Include="suppression_direction.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inscription_encadreurs.Designer.vb">
+      <DependentUpon>inscription_encadreurs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="inscription_encadreurs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="consultation_encadreurs1.Designer.vb">
+      <DependentUpon>consultation_encadreurs1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="consultation_encadreurs1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="connexion.resx">
+      <DependentUpon>connexion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="consultation_encadreurs2.resx">
+      <DependentUpon>consultation_encadreurs2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modification_encadreurs.resx">
+      <DependentUpon>modification_encadreurs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="suppression_encadreurs.resx">
+      <DependentUpon>suppression_encadreurs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inscription_professeurs.resx">
+      <DependentUpon>inscription_professeurs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="consultation_professeurs1.resx">
+      <DependentUpon>consultation_professeurs1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="consultation_professeurs2.resx">
+      <DependentUpon>consultation_professeurs2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modification_professeurs.resx">
+      <DependentUpon>modification_professeurs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="suppression_professeurs.resx">
+      <DependentUpon>suppression_professeurs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inscription_eleves.resx">
+      <DependentUpon>inscription_eleves.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="consultation_eleves1.resx">
+      <DependentUpon>consultation_eleves1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menu_general.resx">
+      <DependentUpon>menu_general.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="consultation_eleves2.resx">
+      <DependentUpon>consultation_eleves2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modification_eleves.resx">
+      <DependentUpon>modification_eleves.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="suppression_eleves.resx">
+      <DependentUpon>suppression_eleves.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inscription_evenements.resx">
+      <DependentUpon>inscription_evenements.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="activites_culturelles.resx">
+      <DependentUpon>activites_culturelles.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inscription_direction.resx">
+      <DependentUpon>inscription_direction.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="consultation_direction1.resx">
+      <DependentUpon>consultation_direction1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="consultation_direction2.resx">
+      <DependentUpon>consultation_direction2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modification_direction.resx">
+      <DependentUpon>modification_direction.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="suppression_direction.resx">
+      <DependentUpon>suppression_direction.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inscription_encadreurs.resx">
+      <DependentUpon>inscription_encadreurs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="consultation_encadreurs1.resx">
+      <DependentUpon>consultation_encadreurs1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2812%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\three_col_48902949_l.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ecoles.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ecoles1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2819%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2839%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2857%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2841%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2854%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2820%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2817%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2817%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2841%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5173853lpaw-5186961-jpg_3758601.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gn1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gn %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calb2849_cole_jpg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gn %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gn %281%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salle_de_classe_guinee.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2817%292.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2843%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2838%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2839%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2844%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2839%292.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2838%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2839%293.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2820%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5173853lpaw-5186961-jpg_37586011.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gn %281%293.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-left-b.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-left-c.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\[001491].jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-left-c1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\[008836].jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\[001491]1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\[008836]1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\education1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-left-c2.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
